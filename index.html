@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+<title>Subtitles Synchronizer</title>
+
+<body onload="startTime()" style="background-color: #000066">
+
+ <link rel = "stylesheet"
+   type = "text/css"
+   href = "StyleSheet.css" />
+
+
+<center>
+
+
+<h1><div id="creator" class="a">Created by Kounelis Agisilaos</div></h1>
+<h2><div id="clock" class="b"></div>
+
+
+<div class="main">
+<table>
+
+	<br>
+    <form action="/action_page.php">
+	
+      Hour(s): <input type="number" id="targetHours" value="0" size="1" min="0" max="5" maxlength="1" type="tel" oninput="maxCheck(this)">
+      Minute(s): <input type="number" id="targetMins" value="00" size="1" min="0" max="59" maxlength="2" type="tel" oninput="maxCheck(this)">
+      Second(s): <input type="number" id="targetSecs" value="00" size="1" min="0" max="59" maxlength="2" type="tel" oninput="maxCheck(this)">
+      Milisecond(s): <input type="number" id="targetMili" value="000" size="1" min="0" max="999" maxlength="3" type="tel" oninput="maxCheck(this)">
+      
+	  <br><br>
+	  
+	  Add delay: <input id="add" type="radio" name="mode" checked>
+	  Remove delay: <input id= "remove" type="radio" name="mode">
+	  
+      <br><br>
+
+	  </form>
+
+       Select Subtitles: </td>
+       <input type="file" id="fileToLoad"></td>
+
+       <br><br>
+       <button onclick="loadFileAsText()">DOWNLOAD</button><td>
+        
+</table>
+
+</div>
+
+</h2>
+
+</center>
+
+<script type="text/javascript" src="ex.js"></script>  
+ 
+</body>
+</html>

@@ -1,0 +1,37 @@
+/* StyleSheet.css */
+
+div.a {
+    color: white;
+	font-size : 40px;
+
+}
+
+div.b {
+    color: white;
+	font-size : 30px;
+
+}
+
+
+button {
+    height:50px;
+    width:150px;
+	font-size : 20px;
+	background-color: red;
+	color: white;
+
+}
+
+div.main {
+    border-radius: 15px 50px;
+    padding: 20px; 
+    border: 2px solid #73AD21;
+    margin: 0;
+    background: #e68a00;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+	
+}
