@@ -1,3 +1,11 @@
 # Subs-Synchronizer
+Online Preview: https://kounelisagis.com/subtitles_synchronizer/
 
-It can be found here: http://students.ceid.upatras.gr/~st1059637/subs.html
+## Built With
+HTML, CSS, JS
+
+## Input
+.srt subtitles file
+
+## Output
+.srt subtitles synchronized file
