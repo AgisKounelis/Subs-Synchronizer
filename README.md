@@ -1,5 +1,5 @@
 # Subs-Synchronizer
-Online Preview: https://kounelisagis.com/subtitles_synchronizer/
+Online Preview: https://kounelisagis.me/subtitles_synchronizer/
 
 ## Built With
 HTML, CSS, JS
